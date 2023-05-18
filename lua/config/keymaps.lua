@@ -16,4 +16,4 @@ local function map(mode, lhs, rhs, opts)
 end
 
 -- Telescope
-map("n", "<C-p>", Util.telescope("files"))
+map("n", "<C-p>", Util.telescope("files", { cwd = false }))
