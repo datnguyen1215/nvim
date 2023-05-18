@@ -1,8 +1,4 @@
-# Overview
+# 💤 LazyVim
 
-This is lazyvim.
-
-Requirements:
-
-1. `npm install -g prettier`
-2. `sudo apt install ripgrep`
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
