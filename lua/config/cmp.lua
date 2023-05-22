@@ -10,4 +10,7 @@ cmp.setup({
       fallback()
     end),
   }),
+  experimental = {
+    ghost_text = false,
+  },
 })
