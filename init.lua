@@ -2,3 +2,4 @@
 require("config.lazy")
 require("config.copilot")
 require("config.cmp")
+require("config.kanagawa")
