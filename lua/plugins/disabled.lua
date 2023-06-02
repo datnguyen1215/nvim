@@ -16,5 +16,9 @@ return {
   {
     "echasnovski/mini.surround",
     enabled = false,
-  }
+  },
+  {
+    "folke/tokyonight.nvim",
+    enabled = false,
+  },
 }
