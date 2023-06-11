@@ -10,13 +10,15 @@ return {
       "markdown",
       "markdown_inline",
       "python",
-      "query",
-      "regex",
       "tsx",
       "typescript",
       "vim",
-      "yaml",
       "svelte",
+      "css",
+      "scss",
+      "c_sharp",
+      "comment",
+      "jsdoc"
     },
   },
 }
