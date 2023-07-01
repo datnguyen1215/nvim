@@ -9,6 +9,7 @@ return {
       "eslint-lsp",
       "prettierd",
       "typescript-language-server",
+      "tailwindcss-language-server",
     },
   },
 }
