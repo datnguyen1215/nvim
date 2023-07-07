@@ -10,6 +10,7 @@ return {
         nls.builtins.diagnostics.fish,
         nls.builtins.formatting.stylua,
         nls.builtins.formatting.shfmt,
+        nls.builtins.formatting.sql_formatter,
         nls.builtins.diagnostics.flake8,
       },
     }

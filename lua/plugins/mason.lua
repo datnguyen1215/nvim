@@ -10,6 +10,7 @@ return {
       "prettierd",
       "typescript-language-server",
       "tailwindcss-language-server",
+      "sql-formatter",
     },
   },
 }
