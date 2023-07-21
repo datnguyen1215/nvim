@@ -7,3 +7,5 @@ vim.api.nvim_set_keymap("n", "<C-k>", ":call VSCodeNotify('workbench.action.navi
 vim.api.nvim_set_keymap("n", "<C-l>", ":call VSCodeNotify('workbench.action.navigateRight')<CR>", { silent = true })
 
 vim.api.nvim_set_keymap("n", "<leader>cf", ":call VSCodeNotify('editor.action.formatDocument')<CR>", { silent = true })
+
+vim.opt.clipboard:append("unnamedplus")
