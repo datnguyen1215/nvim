@@ -24,7 +24,6 @@ return {
           end,
         })
       end,
-    },
-    autoformat = false,
+    }
   },
 }
