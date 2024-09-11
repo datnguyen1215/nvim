@@ -18,7 +18,8 @@ return {
       "scss",
       "c_sharp",
       "comment",
-      "jsdoc"
+      "jsdoc",
+      "graphql",
     },
   },
 }
