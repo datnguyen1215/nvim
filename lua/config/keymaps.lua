@@ -4,6 +4,7 @@
 
 -- Save current pane
 vim.api.nvim_set_keymap("n", "<leader>ws", ":w<CR>", { silent = true })
+vim.api.nvim_set_keymap("n", "<leader>ww", ":close<CR>", { silent = true })
 
 vim.api.nvim_set_keymap("n", "<leader>wo", ":lua CloseAllExceptCurrentAndOpenNeotree()<CR>", { silent = true })
 
