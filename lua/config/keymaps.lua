@@ -3,7 +3,6 @@
 -- Add any additional keymaps here
 
 -- Save current pane
-vim.api.nvim_set_keymap("n", "<leader>ws", ":w<CR>", { silent = true })
 vim.api.nvim_set_keymap("n", "<leader>ww", ":w<CR>", { silent = true })
 
 -- Split horizontally
