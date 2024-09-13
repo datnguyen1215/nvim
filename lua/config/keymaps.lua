@@ -4,18 +4,7 @@
 
 -- Save current pane
 vim.api.nvim_set_keymap("n", "<leader>ws", ":w<CR>", { silent = true })
-vim.api.nvim_set_keymap("n", "<leader>ww", ":close<CR>", { silent = true })
-
-vim.api.nvim_set_keymap("n", "<leader>wo", ":lua CloseAllExceptCurrentAndOpenNeotree()<CR>", { silent = true })
-
-function CloseAllExceptCurrentAndOpenNeotree()
-  vim.cmd("%bd")
-  vim.cmd("e#")
-  vim.cmd("bd#")
-  local cur_buf = vim.api.nvim_get_current_buf()
-  vim.cmd("Neotree")
-  vim.api.nvim_set_current_buf(cur_buf)
-end
+vim.api.nvim_set_keymap("n", "<leader>ww", ":w<CR>", { silent = true })
 
 -- Split horizontally
 vim.api.nvim_set_keymap("n", "<leader>s", ":vs<CR>", { silent = true })
