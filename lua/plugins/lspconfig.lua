@@ -10,6 +10,14 @@ return {
         },
       },
     },
+
+    diagnostics = {
+      virtual_text = {
+        prefix = "",
+        spacing = 20,
+      },
+    },
+
     setup = {
       eslint = function()
         vim.api.nvim_create_autocmd("BufWritePre", {
@@ -24,6 +32,6 @@ return {
           end,
         })
       end,
-    }
+    },
   },
 }
