@@ -25,6 +25,8 @@ return {
       },
     },
 
-    -- see below for full list of options 👇
+    note_id_func = function(title)
+      return title
+    end,
   },
 }
