@@ -11,6 +11,7 @@ return {
       "typescript-language-server",
       "tailwindcss-language-server",
       "sql-formatter",
+      "graphql-language-service-cli",
     },
   },
 }
