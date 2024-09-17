@@ -1,5 +1,4 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
-vim.g.autoformat = false
 require("config.lazy")
 require("config.copilot")
 require("config.cmp")
@@ -9,3 +8,4 @@ require("config.tsserver")
 require("config.gitsigns")
 require("config.mapleader")
 require("config.keymaps")
+vim.g.autoformat = false
