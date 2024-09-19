@@ -9,4 +9,7 @@ vim.api.nvim_set_keymap("n", "<leader>s", ":vs<CR>", { silent = true })
 vim.api.nvim_set_keymap("n", "<leader>S", ":split<CR>", { silent = true })
 
 vim.api.nvim_set_keymap("n", "<leader>oil", ":Octo issue list<CR>", { silent = true })
+vim.api.nvim_set_keymap("n", "<leader>oic", ":Octo issue create<CR>", { silent = true })
+
 vim.api.nvim_set_keymap("n", "<leader>opl", ":Octo pr list<CR>", { silent = true })
+vim.api.nvim_set_keymap("n", "<leader>opc", ":Octo pr create<CR>", { silent = true })
