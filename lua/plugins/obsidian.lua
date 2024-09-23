@@ -28,5 +28,10 @@ return {
     note_id_func = function(title)
       return title
     end,
+
+    ---@return table
+    note_frontmatter_func = function(note)
+      return {}
+    end,
   },
 }
